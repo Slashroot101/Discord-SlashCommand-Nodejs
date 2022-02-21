@@ -16,6 +16,16 @@ DISCORD_TOKEN=YOURDISCORDTOKENHERE
 CLIENT_ID=YOURDISCORDCLIENTIDHERE
 ```
 
+Add the bot to your Discord server with the link you can generate in the Discord Applications OAuth2 Panel.
+
+Go into the server that your bot is in and type:
+
+```
+/ping
+```
+
+If the command shows up, you have succesfully setup the bot!
+
 ## Usage
 
 To start the bot, run:
