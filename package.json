@@ -1,0 +1,22 @@
+{
+  "name": "discord-slashcommand-nodejs",
+  "version": "1.0.0",
+  "description": "a discord.js slash interaction command bot scaffold",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=dev node ./src/index.js"
+  },
+  "author": "slashroot101",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "cross-env": "^7.0.3",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}
