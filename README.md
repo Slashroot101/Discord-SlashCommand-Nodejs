@@ -1,3 +1,7 @@
+## About
+
+A template repository using Discord.js to boostrap your Discord Bot with Node.js. This template provides the basic structure for building commands, and to get started with your users.
+
 ## Requirements
 * Node.js Runtime
 * NPM
