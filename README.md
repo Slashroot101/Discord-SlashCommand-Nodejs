@@ -18,7 +18,9 @@ Create a new .env file in the root project named either .dev.env or /.NODE_ENV.e
 ```env
 DISCORD_TOKEN=YOURDISCORDTOKENHERE
 CLIENT_ID=YOURDISCORDCLIENTIDHERE
+SHOULD_CREATE_COMMANDS=true
 ```
+Note: should create commands tells the bot whether or not to create the discord slash commands. when rapidly developing, waiting for this call every bot startup can be cumbersome.
 
 If the command shows up, you have succesfully setup the bot!
 
