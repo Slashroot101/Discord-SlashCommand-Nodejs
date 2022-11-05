@@ -4,6 +4,6 @@ dotenv.config({ path: `${process.cwd()}/.${process.env.NODE_ENV.replace(' ', '')
 
 module.exports = {
   discordToken: process.env.DISCORD_TOKEN,
-  discordClientId: process.env.DISCORD_CLIENT_ID,
+  discordClientId: process.env.CLIENT_ID,
   shouldCreateCommands: process.env.SHOULD_CREATE_COMMANDS === 'true',
 };
