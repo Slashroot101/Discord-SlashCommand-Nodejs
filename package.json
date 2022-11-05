@@ -1,7 +1,7 @@
 {
-  "name": "sensible-bot",
+  "name": "slash-bot",
   "version": "1.0.0",
-  "description": "a bot to help discord moderators make sensible decisions about their community users",
+  "description": "a template repo for discord slash commands",
   "main": "./src/index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=dev nodemon src/index.js | pino-pretty -i pid,hostname -t yyyy-mm-dd HH:MM:ss"
